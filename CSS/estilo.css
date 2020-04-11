@@ -1,0 +1,31 @@
+nav, header, footer,.intro{
+max-width: 90%;
+margin: auto;
+}
+
+body{
+    background-color: rgb(21, 64, 119);
+    color: white;
+}
+nav{
+    background-color: lightskyblue;
+}
+header{
+    background-color: orange;
+}
+footer{
+    background-color: orange;
+}
+.intro
+{
+ color: orange;
+ display: inline-block;
+ max-width: 65%;
+}
+aside
+{
+    
+    display: inline-block;
+    max-width: 27%;
+    
+   }
