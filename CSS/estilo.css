@@ -1,5 +1,5 @@
-nav, header, footer,.intro{
-max-width: 90%;
+nav, header, footer,.container{
+max-width: 92%;
 margin: auto;
 }
 
@@ -9,6 +9,7 @@ body{
 }
 nav{
     background-color: lightskyblue;
+    text-align: center;
 }
 header{
     background-color: orange;
@@ -22,10 +23,29 @@ footer{
  display: inline-block;
  max-width: 65%;
 }
-aside
-{
-    
+aside{
     display: inline-block;
     max-width: 27%;
-    
    }
+.menu li{
+      display: inline-block ;
+}
+    li a, boton{
+        display: inline-block;
+        color: firebrick;
+        text-align: center;
+        text-decoration: none;
+    }
+.lista{
+    display: none;
+    background-color: floralwhite;
+    position: absolute;
+}
+.lista a{
+    color: black;
+    display: block;
+    text-align: left;
+}
+.boton:hover .lista{
+    display: block;
+}
