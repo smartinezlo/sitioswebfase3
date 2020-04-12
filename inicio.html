@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OVI: DISEÑO DE SITIOS WEB</title>
     <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="stylesheet" href="CSS/font.css">
+    <link rel="stylesheet" href="fonts.css">
 </head>
 <body>
     
    <!--                         HEADER       Cabecera de la pagina                                   -->
     <header>
-        <img src="imagenes/logou.png" alt="logo unad">
+        <img src="imagenes/logo_u.png" width="300" alt="logo unad">
         <h1>OVI DISEÑO DE SITIOS WEB</h1>
         <h2>GRUPO 301122_60</h2>
    </header>
@@ -19,65 +21,102 @@
    <!--                          NAV      menu de navegacion                         -->
    <nav>
     <ul class="menu">
-        <li><a href="#"></a>INICIO</li>
-        <li class="boton"><a href="#">LECTURAS</a>
+        <li><a href="inicio.html"></li>INICIO</a>
+        <li class="boton"><a href="">LECTURAS</a>
             <div class="lista">
-                <a href="#">HTML5</a>
+                <a href="pg_html5.html">HTML5</a>
                 <a href="pg_css3.html">CSS3</a>
+                <a href="pg_etiquetas.html">ETIQUETAS</a> 
                 <a href="pg_git.html">GIT</a>
                 <a href="pg_github.html">GITHUB</a>
                 
             </div>
         </li>
+
+        <li class="boton"><a href="">MULTIMEDIA</a>
+            <div class="lista">
+                <a href="pg_multimedia1.html">HTML5</a>
+                <a href="pg_multimedia2.html">CSS3</a>           
+            </div>
+        </li>
+          <!--                         menu de ACTIVIDADES                      -->
+        <li class="boton"><a href="">ACTIVIDADES</a>
+            <div class="lista">
+                <a href="pg_actividad1.html">SOPA DE LETRAS</a>
+                <a href="pg_actividad2.html">CRUCIGRAMA</a>
+                <a href="pg_actividad3.html">COMPLEMENTAR</a>                
+            </div>
+        </li>
+  <!--                                menu AUTORES                       -->
+        <li class="boton"><a href="">AUTORES</a>
+            <div class="lista">
+                <a href="pg_smartinez.html">Sebastian Martinez</a>             
+            </div>
+        </li>
     </ul>
    </nav>
 
-   <section class="container">
 
-    <section class="intro">
-        <h3>INTRODUCCIÓN AL DISEÑO DE SITIOS WEB</h3>
-        <article>
-            <h3>
-                OBJETIVOS
-            </h3>
-            <p>
-                En el curso diseño de sitios web se divide en tres unidades, las cuales son: 1. Introduccion al diseño de sitios web, en esta vemos
-                que es y como funciona el sistema de control de verciones GIT y el uso de GITHUB para sincronizar nuestros proyectos a travez de internet
-                y asi poder trabajar de forma colaborativa, 2. HTML5 y 3. CSS3. En las unidades 2 y 3 veremos el uso de HTML y CSS para desarrollar paginas web. 
-                
-            </p>
-            <p>
-                El OVI Diseño de sitios web esta elaborado con el fin de dar a conocer informacion basica sobre el manejo de herramientas
-                enfocadas al desarrollo web como los son GIT, GITHUB, HTML5 Y CSS3. Esto se realizara a travez de lecturas, videos y actividades
-                cortas y faciles de entender.
-            </p>
-            <p>
-                El objetivo de este ovi es Diseñar un sitio web el cual pueda ser utilizado como recurso didactico para la ensenañza
-            </p>
+<section class="container">
+    <section class="central">
+    <article>
+    <h3>INTRODUCCIÓN AL DISEÑO DE SITIOS WEB</h3>
+    <p>Bienvenidos al ovi de diseño de sitios web de la unad, este ovi esta enfocado en brindar informacion al usuario sobre html5 y css3, ademas encontraras actividades didactivas y multimedia que favoreceran al aprendizaje. 
+        <p>
+            <p> El diseño de sitios web es la principal disciplina a tener en cuenta  a la hora de montar una web, ya que de ella depende el grado 
+        de usabilidad de esta y la mejora de cara al visitante. Si este no recibe una experiencia agradable, con una interactividad, arquitectura de información, navegabilidad y usabilidad
+        adecuadas, probablemente se desplace a la competencia o no saque real partido de lo que le brinda la página.
+    </p>  
+    <p>El diseño web sirve para ofrecer a los usuarios una experiencia adecuada, suave y atractiva a la hora de desplazarse por una página. </p>
+    </p>      
+    </article>
+    <article>
+    <h3>OBJETIVOS</h3>
+    <p>Diseñar un sitio web el cual pueda ser utilizado como recurso didactico para la enseñanza.
+    </p>  
+    <p>Comprender de qué forma se debe planear o desarrollar los pasos en la elaboración de un sitio web.</p>  
+    <p>Ofrecer una alternativa interactiva para la comprensión de contenidos atraves de textos y videos.</p>
+    </article>     
+    
+    </section>   
 
-          </section>
-
-        </article>
         <aside>
-            <h3>DESCARGAS</h3>
+            <h3>PROGRAMAS</h3>
                      <figure>
-                        <a href="https://git-scm.com/downloads" target=_blank><img src="imagenes/gitlogo.png" alt="git_logo"></a>
-                        <a href="https://desktop.github.com/" target=_blank><img src="imagenes/githublogo.png" alt="github_logo"></a>
-                        <a href="https://code.visualstudio.com/download" target=_blank><img src="imagenes/vscode.png" alt="vscode_logo"></a>
+                        <a href="https://git-scm.com/downloads" target=_blank><img src="imagenes/gitlogo.png" width="250" alt="git_logo"></a>
+                        <a href="https://desktop.github.com/" target=_blank><img src="imagenes/githublogo.png" width="200" alt="github_logo"></a>
+                        <a href="https://code.visualstudio.com/download" target=_blank><img src="imagenes/vscode.png" width="200" alt="vscode_logo"></a>
                      </figure>
+
+                    <!--BARRA NOTICIAS TWITTER
+                         <a class="twitter-timeline" data-lang="es" data-height="400" data-theme="dark" href="https://twitter.com/github?ref_src=twsrc%5Etfw">Tweets by github</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>             
+                     -->   
         </aside>
-    </section>
+</section>
 
     <!-- footer / parte inferior de la estructura web   -->
    <footer>
     <h4>
         UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA | DISEÑO DE SITIOS WEB GRUPO_301122_60
         <br>
-        2020 TODOS LOS DERECHOS RESERVADOS
+        2020 | ELABORADO POR SEBASTIAN MARTINEZ
         </h4>
         <h5>
             
-        CUENTA DE VISITAS      
+        CUENTA DE VISITAS   
+        </h5>   
+        <!--
+        <div class="social-bar">
+           <a href="" class="icon icon-facebook" target="_blanck"></a>
+           <a href="" class="icon icon-twitter" target="_blanck"></a>
+           <a href="" class="icon icon-youtube" target="_blanck"></a>
+        </div>
+        -->
+ <!-- Contador de visitas -->
+ <center><a href="#" title="Contador De Visitas Gratis">
+    <img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=280922"></a></a></center>
+    <!-- Fin Contador de visitas -->
    </footer>
+          
 </body>
 </html>
